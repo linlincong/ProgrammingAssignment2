@@ -4,7 +4,7 @@
 ###
 ### Normally, makeCacheMatrix were used first to creat a special matrix that can cache its invers matrix.
 ### 
-### then when you need to pass the special matrix to cacheSolve function, it will return the inverse matrix with a message "getting cached data" if the inverse matrix has already been saved 
+### then you need to pass the special matrix to cacheSolve function, it will return the inverse matrix with a message "getting cached data" if the inverse matrix has already been saved 
 ### in the cache, otherwise it will calcalte the inverse matrix and update the inverseve matrix into cache.
 
 
